@@ -14,3 +14,65 @@
 
 
 */
+
+:root {
+    --cambridge-blue: #86A19Dff;
+    --tea-rose-red: #F6BBBBff;
+    --light-blue: #BBDAD5ff;
+    --tiffany-blue: #A2D0CBff;
+    --melon: #F1B1B0ff;
+    --mint-green: #CDECE8ff;
+    --tea-rose-red-2: #FBC2C1ff;
+    --rosy-brown: #C8A4A1ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: var(--cambridge-blue);
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    background-color: white;
+    width: 260px;
+    height: 510px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+}
+
+div#imagem{
+    background: blue url(../imagens/fundo.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 20px 20px 0px 0px;
+    display: block;
+}
+
+div#form{
+    height: 300px;
+    padding: 10px;
+    display: block;
+}
+
+#form > h1{
+    text-align: center;
+}

@@ -10,13 +10,15 @@
     <main>
         <section id="login">
             <div id="imagem">
-                <img src="imagens/fundo.jpg" alt="Imagem de fundo">
             </div>
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
-                    
+                    <input type="email" name="email" id="email" placeholder="seu e-mail">
+                    <input type="password" name="senha" id="senha" placeholder="sua senha">
+                    <input id="botaoEntrar" type="submit" value="Entrar">
+                    <input id="botaoForgot" type="submit" value="Esqueci a senha">
                 </form>
             </div>
         </section>
