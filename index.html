@@ -6,6 +6,7 @@
     <title>Projeto login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <main>
@@ -15,11 +16,20 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post">
-                    <input type="email" name="email" id="email" placeholder="seu e-mail">
-                    <input type="password" name="senha" id="senha" placeholder="sua senha">
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+
+                        <input type="email" name="email" id="email" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
+                        <label for="email">Login</label>
+
+                        <span class="material-symbols-outlined">vpn_key</span>
+
+                        <input type="password" name="senha" id="senha" placeholder="Sua senha" autocomplete="current-password" minlength="8" maxlength="20" required>
+                        <label for="senha">Senha</label>
+                    </div>
                     <input id="botaoEntrar" type="submit" value="Entrar">
-                    <input id="botaoForgot" type="submit" value="Esqueci a senha">
+                    <a href="esqueci.html">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
                 </form>
             </div>
         </section>
