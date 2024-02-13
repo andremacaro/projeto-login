@@ -52,9 +52,9 @@ section#login{
     border-radius: 20px;
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 50%; 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+    transform: translate(-50%, -50%);
     transition: width .4s, height .4s;
 }
 
@@ -107,12 +107,12 @@ div.campo > span{
 div.campo > input{
     background-color: var(--tea-rose-red);
     font-size: 1em;
-    width: calc(100% - 45px);
-    transform: translateY(-10px);
+    width: calc(100% - 45px);  
     height: 90%;
     border-radius: 5px;
     border: none;
     padding: 5px;
+    transform: translateY(-10px);
 }
 
 form > input[type=submit]{
