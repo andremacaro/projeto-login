@@ -39,20 +39,28 @@
 
     section#login{
         width: 920px;
+        height: 350px;
     }
 
-    div#imagem{
+    section#login > div#imagem{
         float: right;
         width: 50%;
         height: 100%;
         border-radius: 0px 20px 20px 0px;
     }
 
-    #form > h1{
+    section#login > div#form{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#form > h1{
         font-size: 2em;
     }
 
-    #form > p{
-        font-size: 1.2em;
+    div#form > p{
+        font-size: 1.1em;
+        margin: 20px 0px;
     }
 }
