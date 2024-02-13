@@ -108,7 +108,7 @@ div.campo > input{
     background-color: var(--tea-rose-red);
     font-size: 1em;
     width: calc(100% - 45px);  
-    height: 90%;
+    height: 89%;
     border-radius: 5px;
     border: none;
     padding: 5px;
